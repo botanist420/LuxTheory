@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+nba-api = "*"
+
+[dev-packages]
+pandas = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
+
+[requires]
+python_version = "3.7"
+python_full_version = "3.7.4"
+
+
+[scripts]
+test_main = "python main.py"
