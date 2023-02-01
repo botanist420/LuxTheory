@@ -10,11 +10,12 @@ nba-api = "*"
 pandas = "*"
 sqlalchemy = "*"
 psycopg2-binary = "*"
+pydantic = "*"
 
 [requires]
 python_version = "3.7"
 python_full_version = "3.7.4"
 
-
 [scripts]
 test_main = "python main.py"
+mindful1111 = "python mindfulness.py 2023-02-01 2023-02-02"
