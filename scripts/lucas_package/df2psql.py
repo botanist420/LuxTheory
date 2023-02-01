@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 
 input_path = "titanic.csv"
 
-psql_url = "postgresql://adminlucaslee:0416@localhost:5432/lucas_db"
+psql_url = "postgresql://USERNAME:PASSWORD@localhost:5432/lucas_db"
 
 engine = create_engine(psql_url)
 print("Connect engine successfully!!!")
